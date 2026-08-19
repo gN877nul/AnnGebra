@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="ECUACIONES 2x2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editX1"
+            android:hint="x1"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editY1"
+            android:hint="y1"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editE1"
+            android:hint="= e1"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editX2"
+            android:hint="x2"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editY2"
+            android:hint="y2"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editE2"
+            android:hint=" = e2"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnResolver2x2"
+            android:text="RESOLVER 2x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="ECUACIONES 3x3"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <GridLayout
+            android:id="@+id/grid3x3"
+            android:columnCount="4"
+            android:rowCount="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnResolver3x3"
+            android:text="RESOLVER 3x3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
