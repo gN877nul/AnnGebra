@@ -47,3 +47,29 @@ XML	Diseño de interfaces
 Gradle	Gestión y compilación del proyecto
 Git	Control de versiones
 GitHub	Almacenamiento del repositorio
+
+🚀 Instalación
+
+Para ejecutar el proyecto necesitas:
+
+Instalar Android Studio.
+Clonar este repositorio.
+Abrir el proyecto desde Android Studio.
+Esperar a que Gradle sincronice las dependencias.
+Ejecutar la aplicación utilizando un emulador Android o un dispositivo físico.
+🎓 Proyecto académico
+
+ANN-Gebra fue desarrollado como proyecto académico para poner en práctica conocimientos de:
+
+Programación orientada a objetos.
+Desarrollo de aplicaciones Android.
+Interfaces gráficas.
+Resolución de problemas matemáticos mediante programación.
+Manejo de Git y GitHub.
+👨‍💻 Autor
+
+Gadyel Santiago Navarro Rivera
+
+Estudiante de Ingeniería en Sistemas.
+
+ANN-Gebra — Beta 2026
